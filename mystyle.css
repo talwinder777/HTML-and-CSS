@@ -1,0 +1,56 @@
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+h2{
+    color : red;
+    text-align: center;
+    border: 5px solid rgb(255,176,170,0.5);
+}
+h2, p{
+    color: rgb(56, 31, 146);
+    text-align: center;
+}
+/*h2 > p -> apply the style to all P that have parent as h2 
+ h2 + p -> apply style to those that are immmediate after h2
+ anything : hover -> changes the style of the "anything elements whenever the mouse is hovered"*/
+p{
+    color: rgb(56, 31, 146);
+    text-align: center;
+
+}
+p{
+    line-height: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 80%;
+    font-family: "Times-New-Roman","Georgia";
+}
+img{
+    float: left;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    align-items: center;
+    padding-left: 47%;
+    padding-right: 30%;
+}
+.webtext{
+    border:5px dashed saddlebrown;
+    
+}
+#div1{
+    background-color : rgba(0,0,255, 0.2)
+}
+#div2{
+    background-color: rgba(255,0,0,0.3);
+}
+/* .boxmodel{
+    border: 5px solid red;
+    display: inline-block;
+    padding-right: 5px 20px;
+    margin: 0px 20px;
+} */
+
